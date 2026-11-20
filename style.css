@@ -1,3 +1,13 @@
 *{
     font-family:Algerian;
 }
+.box-class{
+    width:400px;
+    height:500px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    filter:blur(9px);
+    transition: filter 0.5s ease;
+    display:flex;
+    flex-direction: column;
+}
